@@ -1,0 +1,10 @@
+puppet:
+  manifest_file: site.pp
+  manifests_path: ../puppet/manifests
+  modules:
+    - ../puppet/modules/dist
+    - ../puppet/modules/site
+  options:
+    - --verbose
+    - --debug
+    - --graph

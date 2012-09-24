@@ -1,0 +1,7 @@
+default: &default
+  orgname: olfi2012.org
+  vbox: centos-6.3-i386
+  memory_size: 384
+puppet:
+  <<: *default
+  puppet:
