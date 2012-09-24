@@ -6,16 +6,21 @@ Bootstrap Vagrant Environment for OLFI 2012 Beginners and Advanced Classes
 Pre-Requsites
 -------------
 
++ Ruby (1.9.2) [1.8.7 is not tested, but _should_ work]
 + VirtualBox (>= 4.0)
 + Vagrant (>= 1.0.5)
 + Vagrant-Hitch (>= 0.0.1)
 + Veewee (>= 0.2.3)
+
+Note: This should work on any OS with VirtualBox installed with the
+exception of 64-bit OS Windows XP/Vista/7/8.
 
 ## Installation
 
     git clone https://github.com/jfryman/olfi2012-vagrant.git
     cd olfi2012-vagrant
     git submodule init
+    git submodule update
     bundle install
  
 ### Validation
