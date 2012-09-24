@@ -1,6 +1,7 @@
 default: &default
   orgname: olfi2012.org
   vbox: centos-6.3-i386
+  vbox_url: https://dl.dropbox.com/u/443584/frymanet.com/centos-6.3-i386.box
   memory_size: 384
 puppet:
   <<: *default
