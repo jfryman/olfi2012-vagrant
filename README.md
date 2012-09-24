@@ -13,15 +13,15 @@ Pre-Requsites
 
 ## Installation
 
- git clone https://github.com/jfryman/olfi2012-vagrant.git
- cd olfi2012-vagrant
- git submodule init
- bundle install
-
+    git clone https://github.com/jfryman/olfi2012-vagrant.git
+    cd olfi2012-vagrant
+    git submodule init
+    bundle install
+ 
 ### Validation
 
-> cd vagrant
-> vagrant up
+    cd vagrant
+    vagrant up
 
 Look for the text `notice: Installation was successful` in the output from Vagrant
 
