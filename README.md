@@ -13,15 +13,20 @@ Pre-Requsites
 
 ## Installation
 
+```
  git clone https://github.com/jfryman/olfi2012-vagrant.git
  cd olfi2012-vagrant
  git submodule init
+ git submodule update
  bundle install
+```
 
 ### Validation
 
+```
  cd vagrant
  vagrant up
+```
 
 Look for the text 'notice: Installation was successful' in the output from Vagrant
 
@@ -35,20 +40,30 @@ All of the following commands should be executed from the directory '''vagrant''
 
 To startup the development environment, use the command
 
+```
  vagrant up
+```
 
 To SSH into the development environment, use the command
 
+```
  vagrant ssh
+```
 
 To re-run Puppet in the development environment, use the command
 
+```
  vagrant provision
+```
 
 To restart the development environment non-destructively, use the command
 
+```
  vagrant reload
+```
 
 To destroy the development environment, use the command
 
+```
  vagrant destroy
+```
